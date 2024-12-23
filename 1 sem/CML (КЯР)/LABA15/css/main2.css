@@ -1,0 +1,68 @@
+.forma {
+  width: 390px;
+  text-align: left;
+  border: 1px solid grey;
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 440px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+input {
+  float: left;
+}
+
+.cheak{
+  position: static;
+  float: left;
+
+}
+
+.polya input{
+  float: right;
+  position: relative;
+  left: -25px;
+}
+
+.polya label{
+  position: relative;
+  left: -30px;
+}
+
+.forma p {
+  text-align: right;
+  padding-right: 15px;
+  position: relative;
+}
+.forma p label{
+  position: relative;
+}
+
+#label {
+  float: left;
+  padding-left: 20px;
+}
+
+select{
+  margin-left: 10px;
+}
+
+footer{
+  border: 1px solid black;
+  border-radius: 10px;
+  position: relative;
+  top: 320px;
+  height: 60px;
+  box-shadow: 0px 0px 4Spx 0px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+footer p{
+  display: inline-block;
+  margin: 3px;
+}
+h3{
+  margin: 3px;
+  text-align: center;
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE shop [
+    <!ELEMENT shop (products*)>
+    <!ELEMENT products (info)>
+    <!ELEMENT info (img, name, price)>
+    <!ELEMENT img (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ENTITY burger "Гранд Чиз">
+    <!ENTITY rub "руб">
+]>
+<?xml-stylesheet type="text/css" href="css/main.css"?>
+<shop>
+    <products>
+        <info>
+            <img></img>
+            <name>&burger;</name>
+            <price>8.90 &rub;</price>
+        </info>
+    </products>
+    <products>
+        <info>
+            <img></img>
+            <name>&burger; Двойной</name>
+            <price>13.40 &rub;</price>
+        </info>
+    </products>
+    <products>
+        <info>
+            <img></img>
+            <name>Ангус Беловежский Двойной</name>
+            <price>22.00 &rub;</price>
+        </info>
+    </products>
+    <products>
+        <info>
+            <img></img>
+            <name>&burger; Фреш</name>
+            <price>9.00 &rub;</price>
+        </info>
+    </products>
+    <products>
+        <info>
+            <img></img>
+            <name>&burger; Фреш Двойной</name>
+            <price>13.50 &rub;</price>
+        </info>
+    </products>
+</shop>

@@ -1,0 +1,12 @@
+.attestation{
+    border: 1px solid black;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.452);
+}
+
+tr th, tr td{
+    width: 120px;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}

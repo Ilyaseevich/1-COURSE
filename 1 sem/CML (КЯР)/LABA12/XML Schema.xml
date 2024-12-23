@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="css/main.css"?>
+<shop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="schema.xsd">
+    <products>
+        <info>
+            <img></img>
+            <names>Гранд Чиз</names>
+            <price>8.90 руб</price>
+        </info>
+    </products>
+    <products>
+        <info>
+            <img></img>
+            <names>Гранд Чиз Двойной</names>
+            <price>13.40 руб</price>
+        </info>
+    </products>
+    <products>
+        <info>
+            <img></img>
+            <names>Ангус Беловежский Двойной</names>
+            <price>22.00 руб</price>
+        </info>
+    </products>
+    <products>
+        <info>
+            <img></img>
+            <names>Гранд Чиз Фреш</names>
+            <price>9.00 руб</price>
+        </info>
+    </products>
+    <products>
+        <info>
+            <img></img>
+            <names>Гранд Чиз Фреш Двойной</names>
+            <price>13.50 руб</price>
+        </info>
+    </products>
+</shop>
+<!-- https://www.freeformatter.com/xml-validator-xsd.html -->

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Страница 3</title>
+    <link rel="stylesheet" href="css/main2.css">
+  </head>
+  <body>
+    
+    <div class="forma"><br>
+      <h3>Данные студента</h3>
+      <form id="form" action="index.html" method="post">
+        <p class="polya">
+          <label>Имя студента</label>
+          <input type="text" placeholder="Обязательно заполнить">
+        </p>
+        <p class="polya">
+          <label>Отчество студента</label>
+          <input type="text" placeholder="Обязательно заполнить">
+        </p>
+        <p class="polya">
+          <label>Фамилия студента</label>
+          <input type="text" placeholder="Обязательно заполнить">
+        </p>
+        <p class="polya">
+          <label>Адрес почты</label>
+          <input type="email">
+        </p>
+        <p class="polya">
+          <label>Контактный телефон</label>
+          <input type="tel">
+        </p>
+        <p>
+          <label id="label">Какую социальную <br>сеть вы используете?</label>
+          <input type="checkbox" value="VK">
+          <label class="cheak">VK</label>
+          <input type="checkbox" value="Facebook">
+          <label class="cheak">Facebook</label>
+          <input type="checkbox">
+          <label class="cheak" value="Instagram">Instagram</label>
+        </p>
+        <br>
+        <br>
+        <br>
+          <label id="label">Курс</label>
+          <select>
+            <option selected disabled value="Пользователь ничего не выбрал">Выбрать курс</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          <br><br>
+          <label id="label">Факультет</label>
+          <select>
+            <option selected disabled value="Пользователь ничего не выбрал">Выбрать Факультет</option>
+            <option value="ИСиТ">ИСиТ</option>
+            <option value="ПИ">ПИ</option>
+            <option value="ЦД">ЦД</option>
+          </select>
+          <br><br>
+          <label id="label">Группа</label>
+          <select>
+            <option selected disabled value="Пользователь ничего не выбрал">Выбрать группу</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="2">4</option>
+            <option value="3">5</option>
+          </select>
+        <br>
+          <p><input type="button" value="Отправить" onclick="Onclick()"></p>
+      </form>
+    </div>
+    <footer id="foot">
+    </footer>
+    <script src="js/second.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,20 @@
+div{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+img{
+    width: 300px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.53);
+}
+
+p{
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    letter-spacing: 5px;
+    margin: 2px;
+    font-weight: bold;
+}

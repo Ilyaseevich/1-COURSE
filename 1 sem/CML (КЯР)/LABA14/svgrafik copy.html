@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LABA 14</title>
+    <style>
+        ellipse:active{
+        fill: red;
+        }
+        circle:hover{
+            stroke: rgb(255, 191, 0);
+            stroke-width: 5px;
+            transition: 0.5s;
+        }
+        circle{
+            transition: 0.5s;
+        }
+    </style>
+</head>
+<body>
+<h1>ЗАДАНИЕ 2</h1>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1500" height="400">
+    <defs> 
+        <linearGradient id = "Triangle_Gradient"> 
+        <stop offset = "0%" stop-color = "green"/> 
+        <stop offset = "100%" stop-color = "yellow"/> 
+        </linearGradient> 
+    </defs>
+    <defs> 
+        <linearGradient id = "Rect_Gradient"> 
+        <stop offset = "0%" stop-color = "green"/> 
+        <stop offset = "50%" stop-color = "blue"/>
+        <stop offset = "100%" stop-color = "purple"/>  
+        </linearGradient> 
+    </defs>
+    <circle cx="105" cy="105" cy="100" r="100" fill="blue" stroke="blue"></circle>
+    <rect x="300" y="5" width="250" height="200" fill="red" stroke="url(#Rect_Gradient)" stroke-width="4">
+        <animate attributeName="stroke-dasharray" from="0,1000" to="1000,0" dur="2s"/>
+    </rect>
+    <ellipse cx="800" cy="100" rx="175" ry="100" fill="green"></ellipse>
+    <polyline points="1100,200 1250,0, 1400,200" fill="url(#Triangle_Gradient)"></polyline>
+    <a href="index.html"><polyline points="0,250 750,250 600,300 1400,300" fill="none"stroke="#450087"  stroke-linecap="round" stroke-width="4"></polyline></a>
+</svg>
+</body>
+</html>

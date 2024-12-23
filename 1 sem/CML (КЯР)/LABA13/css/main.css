@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(228, 169, 43);
+    font-family: "Roboto", sans-serif;
+}
+
+.info{
+    transition: 0.3s;
+    border: 1px solid white;
+    flex-basis: 15%;
+    height: 40vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+.products{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+    color: #502314;
+}
+
+.name{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    height: 7.5%;
+    text-shadow: 1px 0px 1px rgba(80, 35, 20, 0.155);
+}
+
+.price{
+    height: 7.5%;
+    text-align: right;
+    margin-right: 3%;
+    text-shadow: 1px 0px 1px rgba(80, 35, 20, 0.235);
+}
+
+.img{
+    transition: 2s;
+    height: 85%;
+    left: 0.6px;
+    width: 100%;
+    position: relative;
+}
+
+.info:nth-child(1) .img{
+    background: url("https://burger-king.by/api/v1/files/path/1_CategoryItem_1060809_846C941BA0E275B2A00425B1C64D70B5.webp");
+    background-size: cover;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+.info:hover .img{
+    transition: 0.1s;
+    left: 1px;
+}
+
+.info:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.info:nth-child(2) .img{
+    background: url("https://burger-king.by/api/v1/files/path/1_CategoryItem_1060815_723216562590FF03027C1572AC7967CC.webp");
+    background-size: cover;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.info:nth-child(3) .img{
+    background: url("https://burger-king.by/api/v1/files/path/1_CategoryItem_1086854_771945D23223666D78E96876F7789BF3.webp");
+    background-size: cover;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.info:nth-child(4) .img{
+    background: url("https://burger-king.by/api/v1/files/path/1_CategoryItem_1060812_69887A0D4B4B449755506A3E13B9B660.webp");
+    background-size: cover;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.info:nth-child(5) .img{
+    background: url("https://burger-king.by/api/v1/files/path/1_CategoryItem_1060818_CC0E63CFC9947B2CD41A2DE534F8A8A0.webp");
+    background-size: cover;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+

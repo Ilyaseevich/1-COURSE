@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="task_2_xsl.xsl"?>
+<catalog>
+    <cd>
+        <name>Артём</name>
+        <surname>Первушин</surname>
+        <grade>0</grade>
+    </cd>
+    <cd>
+        <name>Владислав</name>
+        <surname>Карпович</surname>
+        <grade>9</grade>
+    </cd>
+    <cd>
+        <name>Роман</name>
+        <surname>Ильясеевич</surname>
+        <grade>9</grade>
+    </cd>
+    <cd>
+        <name>Захар</name>
+        <surname>Позняк</surname>
+        <grade>9</grade>
+    </cd>
+    <cd>
+        <name>Александр</name>
+        <surname>Сафронов</surname>
+        <grade>6</grade>
+    </cd>
+    <cd>
+        <name>Владимир</name>
+        <surname>Линевич</surname>
+        <grade>5</grade>
+    </cd>
+    <cd>
+        <name>Екатерина</name>
+        <surname>Мирная</surname>
+        <grade>3</grade>
+    </cd>
+    <cd>
+        <name>Кирилл</name>
+        <surname>Забивной</surname>
+        <grade>2</grade>
+    </cd>
+    <cd>
+        <name>Александр</name>
+        <surname>Отбивной</surname>
+        <grade>1</grade>
+    </cd>
+    <cd>
+        <name>Алексей</name>
+        <surname>Бумбумыч</surname>
+        <grade>3</grade>
+    </cd>
+</catalog>

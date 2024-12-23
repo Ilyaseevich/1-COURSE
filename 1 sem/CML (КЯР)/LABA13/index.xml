@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<shop>
+    <products>
+        <img></img>
+        <name>Гранд Чиз</name>
+        <price>8.90 руб</price>
+    </products>
+    <products>
+        <img></img>
+        <name>Гранд Чиз Двойной</name>
+        <price>13.40 руб</price>
+    </products>
+    <products>
+        <img></img>
+        <name>Ангус Беловежский Двойной</name>
+        <price>22.00 руб</price>
+    </products>
+    <products>
+        <img></img>
+        <name>Гранд Чиз Фреш</name>
+        <price>9.00 руб</price>
+    </products>
+    <products>
+        <img></img>
+        <name>Гранд Чиз Фреш Двойной</name>
+        <price>13.50 руб</price>
+    </products>
+</shop>
