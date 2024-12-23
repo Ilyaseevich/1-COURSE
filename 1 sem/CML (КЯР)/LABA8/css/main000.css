@@ -1,0 +1,74 @@
+/* .nav li a {
+background: url(facultet.png) no-repeat 0 0;
+}
+.nav .it a:hover {background-position: 0 -90px;} */
+.head{
+  background: url(facultet.png) no-repeat 0 0;
+  background-size: 40px;
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid black;
+  position: absolute;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+
+.head:nth-child(2){
+  left: 300px;
+}
+
+.head:nth-child(3){
+  left: 550px;
+}
+
+.head:nth-child(4){
+  left: 800px;
+}
+
+a{
+  transition: 0.5s;
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+}
+
+a:hover{
+  transition: 0.5s;
+  color: blue;
+}
+
+.head ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+.head ul li{
+  display: none;
+  border: 1px solid black;
+  width: 200px;
+  border-top: none;
+  position: relative;
+  left: -1px;
+  background-color: rgba(214, 214, 214, 0.25);
+}
+
+.head:nth-child(2):hover ul li, .head:nth-child(2):hover{
+  transition: 0.5s;
+  background-position: 0 -40px;
+  display: block;
+}
+
+.head:nth-child(3):hover ul li, .head:nth-child(3):hover{
+  transition: 0.5s;
+  background-position: 0 -120px;
+  display: block;
+}
+
+.head:nth-child(4):hover ul li, .head:nth-child(4):hover{
+  transition: 0.5s;
+  background-position: 0 -80px;
+  display: block;
+}

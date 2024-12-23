@@ -1,0 +1,408 @@
+@keyframes one {
+  from{
+    transform: translateX(0px);
+  }
+  to{
+    transform: translateX(200px);
+  }
+}
+
+@keyframes two {
+  from{
+    transform: translateX(0px);
+  }
+  to{
+    transform: translateX(200px);
+    border-radius: 120px;
+  }
+}
+
+@keyframes three {
+  from{
+    transform: translateX(-20vw);
+  }to{
+    transform: translateX(100vw);
+  }
+}
+
+@keyframes four {
+  from{
+    transform: translateY(0px);
+  }
+  to{
+    transform: translateY(50px);
+  }
+}
+
+@keyframes five {
+  0%{
+    left: 0px;
+    top: 0px;
+  }
+  25%{
+    left: 150px;
+    top: 0px;
+  }
+  50%{
+    left: 150px;
+    top: 150px;
+  }
+  75%{
+    left: 0px;
+    top: 150px;
+  }
+  100%{
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes task_8 {
+  from{
+    filter: opacity(0%);
+  }
+  to{
+    filter: opacity(80%);
+  }
+}
+
+@keyframes task_4 {
+  0%{transform: rotateY(80deg);
+  }
+  50%{
+    transform: rotateY(0deg);
+  }
+  to{
+    transform: rotateY(0deg);
+  }
+}
+
+@keyframes blurl {
+  from{
+    filter: blur(0px);
+  }
+  50%{
+    filter: blur(0px);
+    right: 180px;
+  }
+  to{
+    filter: blur(10px);
+    right: 0px;
+  }
+}
+
+@keyframes graysc {
+  from{
+    filter: grayscale(0);
+  }
+  50%{
+    filter: grayscale(0);
+    right: 360px;
+  }
+  to{
+    filter: grayscale(1);
+    right: 0px;
+  }
+}
+
+@keyframes inv{
+  from{
+    filter: invert(0);
+  }
+  50%{
+    filter: invert(0);
+    right: 540px;
+  }
+  to{
+    filter: invert(1);
+    right: 0px;
+  }
+}
+
+img{
+  transition: 0.8s;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+
+.scale:hover{
+  transition: 0.8s;
+  transform: scale(0.5);
+}
+.rotate:hover{
+  transition: 0.8s;
+  transform: rotate(45deg);
+}
+
+.translate:hover{
+  transition: 0.8s;
+  transform: translate(50px);
+}
+
+.skew:hover{
+  transition: 0.8s;
+  transform: skew(-20deg);
+}
+
+input{
+  transition: 0.8s;
+  width: 180px;
+  height: 30px;
+  background: white;
+  margin-right: 10px;
+  border: 5px solid black;
+}
+
+.black:hover{
+  transition: 0.8s;
+  border: none;
+  background: black;
+  color: white;
+}
+
+.double:hover{
+  transition: 0.8s;
+  border: 5px solid red;
+  outline: 5px solid yellow;
+}
+
+.green:hover{
+  transition: 0.8s;
+  border-style: solid none solid none;
+  border-color: green;
+}
+
+.blue:hover{
+  transition: 0.8s;
+  border-style: none solid none solid;
+  border-color: blue;
+}
+
+.radial:hover{
+  transition: 0.8s;
+  border: none;
+  background-image: radial-gradient(ellipse 100px 30px, Yellow 5%, Orange 15%, DeepPink 30%, #b649ff, Aqua);
+  /* background-image: radial-gradient(ellipse 100px 50px, Yellow 5%, Orange 15%, DeepPink 35%, #b649ff 55%, #54adff, Aqua); */
+  /* background-image: radial-gradient(circle, purple, pink, lightblue); */
+}
+
+.container{
+  perspective: 1000px;
+}
+
+.box1{
+  margin: 50px auto;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-color: yellow;
+  border: 5px solid black;
+  transform: rotateX(45deg);
+}
+
+.box2{
+  margin: 50px auto;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-color: yellow;
+  border: 5px solid black;
+  transform: rotateY(45deg);
+}
+
+.box3{
+  margin: 50px auto;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-color: yellow;
+  border: 5px solid black;
+  transform: rotateX(-45deg);
+}
+
+.box4{
+  margin: 50px auto;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-color: yellow;
+  border: 5px solid black;
+  transform: rotateY(-45deg);
+}
+
+.image1{
+  margin-left: 50px;
+  animation: task_4 7s linear infinite;
+  width: 200px;
+  height: 200px;
+  outline: 1px solid black;
+  position: relative;
+  display: inline-block;
+  right: 0px;
+  background-color: red;
+}
+.image2{
+  animation: task_4 7s linear infinite, blurl 7s linear infinite;
+  width: 200px;
+  height: 200px;
+  outline: 1px solid black;
+  position: relative;
+  display: inline-block;
+  right: 180px;
+  background-color: blue;
+}
+.image3{
+  animation: task_4 7s linear infinite, graysc 7s linear infinite;
+  width: 200px;
+  height: 200px;
+  outline: 1px solid black;
+  position: relative;
+  display: inline-block;
+  right: 360px;
+  background-color: green;
+}
+.image4{
+  animation: task_4 7s linear infinite, inv 7s linear infinite;
+  width: 200px;
+  height: 200px;
+  outline: 1px solid black;
+  position: relative;
+  display: inline-block;
+  right: 540px;
+  background-color: yellow;
+}
+
+
+/* .task_5{
+  position: relative;
+  bottom: -50px;
+  height: 300px;
+}
+
+.task_5 img{
+  outline: 5px solid red;
+  position: absolute;
+  opacity: 0;
+  animation: slide 25s linear infinite;
+}
+
+.task_5 img:nth-child(1){
+animation-duration: 0s;
+}
+.task_5 img:nth-child(2){
+  animation-duration: 5s;
+}
+.task_5 img:nth-child(3){
+  animation-duration: 10s;
+}
+.task_5 img:nth-child(4){
+  animation-duration: 15s;
+}
+.task_5 img:nth-child(5){
+  animation-duration: 20s;
+} */
+
+
+
+.task_5 {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border: 5px solid red;
+    position: relative;
+}
+
+.task_5 img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    animation: slide 25s linear infinite;
+}
+
+.task_5 img:nth-child(1) {
+    animation-delay: 0s;
+}
+.task_5 img:nth-child(2) {
+    animation-delay: 5s;
+}
+.task_5 img:nth-child(3) {
+    animation-delay: 10s;
+}
+.task_5 img:nth-child(4) {
+    animation-delay: 15s;
+}
+.task_5 img:nth-child(5) {
+    animation-delay: 20s;
+}
+
+@keyframes slide {
+    0%, 20% { opacity: 1; }
+    25%,100% { opacity: 0; }
+}
+
+
+
+.one{
+  width: 200px;
+  height: 200px;
+  background-color: magenta;
+  animation: one 3s linear infinite;
+  border: 3px solid black;
+}
+
+.two{
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border: 3px solid black;
+  animation: two 3s linear infinite;
+}
+
+.three{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border: 3px solid black;
+  animation: three 3s linear infinite;
+}
+
+.four{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border: 3px solid black;
+  animation: four 3s linear infinite;
+}
+
+.five{
+  margin-top: 100px;
+  margin-bottom: 200px;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: Chocolate;
+  border: 3px solid black;
+  animation: five 3s linear infinite;
+}
+
+.five:hover{
+  animation-play-state: paused;
+}
+
+.task_7{
+  width: 300px;
+  height: 300px;
+  hyphens: auto;
+}
+
+.task_7:hover{
+  transition: 5s;
+  color: blue;
+}
+
+h2{
+  animation: task_8 3s linear infinite alternate;
+}

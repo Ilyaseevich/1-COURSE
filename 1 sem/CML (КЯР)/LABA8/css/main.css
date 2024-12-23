@@ -1,0 +1,47 @@
+body{
+  margin: 0px;
+}
+
+div{
+  padding-left: 5px;
+  display: inline-block;
+  float: left;
+  width: 220px;
+  height: 280px;
+  background-color: rgb(213, 213, 213);
+}
+
+aside{
+  display: block;
+  width: 90px;
+  background-color: rgb(233, 233, 233);
+  float: left;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+}
+
+.menu a{
+  display: block;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  color: red;
+  text-decoration: none;
+}
+
+.menu a:visited{
+  color: #8B0000;
+}
+
+.menu a:hover{
+  background-color: rgb(223, 223, 223);
+  color: green;
+}
+
+.menu a:active{
+  color:rgb(184, 134, 11);
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}

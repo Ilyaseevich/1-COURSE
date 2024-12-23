@@ -1,0 +1,39 @@
+header{
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 2.2em;
+  border-bottom: 3px solid silver;
+}
+
+nav{
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  width: 60px;
+  height: 30px;
+  background-color: #e71b1b;
+  border-radius: 60px;
+  float: left;
+  position: fixed;
+}
+
+aside{
+  float: right;
+  width: 55vw;
+  font-size: 1.17em;
+}
+
+figure{
+  width: 50vw;
+}
+
+footer{
+  position: relative;
+  bottom: -350px;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 1.3em;
+  border-top: 3px solid silver;
+}

@@ -1,0 +1,27 @@
+div{
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  display: inline-block;
+}
+.redblue{
+    background-image: linear-gradient(to bottom,red, blue);
+}
+
+.greencircle{
+  background-image: radial-gradient(yellow, green);
+}
+
+.redblueline{
+  background-image: repeating-linear-gradient(45deg, red, red 15px, blue 15px, blue 30px)
+}
+
+.greenyellowcircle{
+  background-image: repeating-radial-gradient(green, green 10%, yellow 10%, yellow 20%);
+}
+
+
+.greenyellowcirclebluered{
+  background: radial-gradient(circle, yellow, green 45%,
+    transparent), linear-gradient(blue, magenta);
+}

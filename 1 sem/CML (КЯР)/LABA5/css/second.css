@@ -1,0 +1,36 @@
+table{
+  border-collapse: separate;
+  border-spacing: 0px;
+}
+
+td {
+  border: 2px solid black;
+  padding: 5px;
+  width: 45px;
+  empty-cells: hide;
+  text-align: center;
+}
+
+caption{
+  font-size: 1.2em;
+}
+
+
+td:nth-child(3n + 2){
+  color: white;
+  background-color: #00bffe;
+}
+
+td:nth-child(3n + 3){
+  color: white;
+  background-color: purple;
+}
+
+td:nth-child(3n + 4){
+  color: white;
+  background-color: green;
+}
+
+#head{
+  background-color: darkblue;
+}

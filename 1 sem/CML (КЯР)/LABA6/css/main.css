@@ -1,0 +1,64 @@
+span {
+  color: red;
+}
+
+.block {
+  max-width: 270px;
+  padding: 2px;
+  border: 1px solid grey;
+  background-color: #F8F9FA;
+}
+
+.td{
+  text-align: center;
+}
+
+#table td, #table th{
+  border: 1px solid black;
+}
+
+h1, h2, h3{
+  font-family: Monotype Corsiva;
+  color: purple;
+}
+
+table tr td{
+  color: green;
+}
+
+table tr th{
+  color: #fc00ff;
+}
+
+.image li{
+  list-style: none;
+  background-image: url(https://i.pinimg.com/originals/79/09/89/7909897ceea2691e5a4942766c678ff3.png);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: 0 2px;
+  padding-left: 15px;
+}
+
+body{
+  background-image: url(FIT.png);
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: right top;
+  background-attachment: fixed;
+}
+
+.invisible{
+  width: 50%;
+  height: 200px;
+  float: left;
+}
+
+.invisible_2{
+  width: 50%;
+  height: 200px;
+  float: right;
+}
+
+p{
+  text-indent: 20px;
+}

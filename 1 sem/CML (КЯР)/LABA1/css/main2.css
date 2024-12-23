@@ -1,0 +1,43 @@
+.forma {
+  width: 390px;
+  text-align: left;
+  border: 1px solid grey;
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 320px;
+}
+
+input {
+  float: left;
+}
+
+.cheak{
+  position: static;
+  float: left;
+
+}
+
+.polya input{
+  float: right;
+  position: relative;
+  left: -25px;
+}
+
+.polya label{
+  position: relative;
+  left: -30px;
+}
+
+p {
+  text-align: right;
+  padding-right: 15px;
+  position: relative;
+}
+p label{
+  position: relative;
+}
+
+#label {
+  float: left;
+  padding-left: 20px;
+}

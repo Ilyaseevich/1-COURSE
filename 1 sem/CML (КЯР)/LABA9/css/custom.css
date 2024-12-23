@@ -1,0 +1,24 @@
+img{
+  /* max-width: 150px; */
+  /* max-width: 100%; */
+  width: 100px;
+  position: relative;
+}
+
+a{
+  position: relative;
+  left: -20px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 70px;
+  width: 70px;
+  text-align: center;
+  background-color: rgb(102, 102, 102);
+  border-radius: 30px;
+  color: rgb(254, 0, 0);
+  text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.3);
+}
+
+a:first-child{
+  margin-left: 20px;
+}

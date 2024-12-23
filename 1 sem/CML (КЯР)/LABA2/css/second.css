@@ -1,0 +1,15 @@
+*{
+  background-color: #BDB76B;
+}
+
+div>a>h2{
+  color:  rgb(0, 250, 154);
+}
+
+span{
+  text-decoration: line-through;
+}
+
+div a h3 {
+  color: yellow;
+}

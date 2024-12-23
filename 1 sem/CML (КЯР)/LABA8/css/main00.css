@@ -1,0 +1,49 @@
+body{
+  margin: 0px;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+nav ul li{
+  list-style-type: none;
+  transition: 0.5s;
+  background-color: #ffff00;
+  width: 300px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+a{
+  font-family: sans-serif;
+  padding-left: 5px;
+  box-sizing: border-box;
+  height: 40px;
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  line-height: 40px;
+  color: black;
+}
+
+.second li {
+  transition: 0.5s;
+  display:none;
+  background-color: #ffa07a;
+}
+
+nav li:hover .second li{
+display: block;
+width: 300px;
+}
+
+li:hover{
+  transition: 0.5s;
+  background-color: rgba(255, 205, 0, 0.6)
+}
+
+.second li:hover{
+  transition: 0.5s;
+  background-color: rgba(255, 160, 122, 0.6);
+}

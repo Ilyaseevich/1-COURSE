@@ -1,0 +1,10 @@
+span {
+  color: blue;
+}
+
+.block {
+  max-width: 270px;
+  padding: 2px;
+  border: 1px solid grey;
+  background-color: #F8F9FA;
+}

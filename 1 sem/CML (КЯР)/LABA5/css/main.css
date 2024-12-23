@@ -1,0 +1,26 @@
+table{
+  box-shadow: 0px 0px 3px 3px rgba(236, 219, 232, 0.9);
+  border-collapse: collapse;
+}
+
+
+th{
+  background-color: rgb(194, 62, 166);
+  text-shadow: 1px 1px rgba(110, 105, 109, 0.3);
+}
+
+table, th, td {
+  border: 2px solid black;
+  width: 450px;
+  height: 30px;
+
+}
+
+.labs{
+  color: rgb(255, 167, 0);
+  text-decoration: underline;
+}
+
+/* td:nth-child(3n + 1){
+  background-color: red;
+} */
