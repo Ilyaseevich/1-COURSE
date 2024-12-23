@@ -1,0 +1,55 @@
+.tasks{
+  border-radius: 15px;
+  width: 80px;
+  border: 2px solid black;
+  padding: 10px;
+}
+input {
+  width: 80px;
+  border-radius: 5px;
+ box-shadow: 0 4px 6px rgb(65 132 144 /30%), 0 1px 3px rgb(0 0 0 / 88%);
+}
+
+input:hover{
+  transition: 0.5s;
+  background-color: #ff8e0d;
+  cursor: pointer;
+  color: #ffffff;
+  box-shadow: 0 4px 6px rgb(65 132 144 /70%), 0 1px 3px rgb(0 0 0 / 50%);
+}
+
+.ab{
+  width: 280px;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgb(65 132 144 /30%), 0 1px 3px rgb(0 0 0 / 88%);
+}
+.ab:hover{
+  background-color: rgb(0 0 0 /19%) ;
+  color: black;
+}
+
+
+table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgb(65 132 144 /30%), 0 1px 3px rgb(0 0 0 / 88%);
+}
+td {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+  width: 50px;
+}
+
+.circle_ {
+  width: 280px;
+}
+
+.circle_:hover{
+  background-color: rgb(0 0 0 /19%) ;
+  color: black;
+}
+
+#numbermethod td{
+  width: 300px;
+}

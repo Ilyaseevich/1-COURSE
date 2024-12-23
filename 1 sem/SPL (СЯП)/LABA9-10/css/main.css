@@ -1,0 +1,18 @@
+.draggable {
+  position: absolute;
+  cursor: move;
+}
+#text {
+  width: 120px;
+  height: 100px;
+  background-color: red;
+  padding: 10px;
+}
+#image {
+  width: 500px;
+  height: 500px;
+  top: 140px;
+}
+a{
+  position: absolute;
+}

@@ -1,0 +1,12 @@
+img{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  transition: 1s linear;
+  top: 75px;
+  left: 75px;
+}
+
+a{
+  text-decoration: none;
+}

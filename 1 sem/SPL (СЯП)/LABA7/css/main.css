@@ -1,0 +1,52 @@
+form{
+  width: 430px;
+  font-weight: bold;
+}
+fieldset{
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.2);
+}
+textarea{
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+input[type = "submit"],input[type = "reset"],input[type = "button"]{
+  transition: 0.5s;
+  width: 100px;
+  height: 25px;
+  box-shadow: 0 4px 6px rgb(65 132 144 /15%), 0 1px 3px rgb(0 0 0 / 50%);
+  border-radius: 10px;
+}
+
+input[type = "submit"]:hover{
+  transition: 0.5s;
+  background: rgb(0, 202, 19);
+  box-shadow: 0 4px 6px rgb(65 132 144 /20%), 0 1px 3px rgb(0 0 0 / 90%);
+  cursor: pointer;
+}
+
+input[type = "reset"]:hover{
+  transition: 0.5s;
+  background: rgb(166, 15, 15);
+  box-shadow: 0 4px 6px rgb(65 132 144 /20%), 0 1px 3px rgb(0 0 0 / 90%);
+  cursor: pointer;
+}
+
+input[type = "button"]:hover{
+  transition: 0.5s;
+  background: rgb(176, 0, 255);
+  box-shadow: 0 4px 6px rgb(65 132 144 /20%), 0 1px 3px rgb(0 0 0 / 90%);
+  cursor: pointer;
+}
+
+span {
+  margin-left: 150px;
+}
+
+p{
+  text-indent: 15px;
+}
+
+.form2{
+  width: 0px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ЛАБА 7</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <form name="data">
+      <fieldset>
+        <textarea name="textarea" rows="3" cols="20">Факультет информационных технологий</textarea><br><br>
+        <input type="text" name="surname" placeholder="Фамилия"><br>
+        <input type="text" name="name" placeholder="Имя"><br><br>
+        Специальность <select name="list">
+          <option selected disabled>Выберите</option>
+          <option>ПОИТ</option>
+          <option>ИСИТ</option>
+          <option>ПОИБМС</option>
+          <option>ДЭВИ</option>
+        </select><br><br><br><br><br>
+        Курс<br>
+        <input type="radio" name="kurs" value="1">1
+        <input type="radio" name="kurs" value="2">2
+        <input type="radio" name="kurs" value="3">3
+        <input type="radio" name="kurs" value="4">4<br>
+        Предметы<br>
+        <input type="checkbox" value="ОИТ">ОИТ
+        <input type="checkbox" value="ОАП">ОАП
+        <input type="checkbox" value="История">История
+        <input type="checkbox" value="Физика">Физика
+        <input type="checkbox" value="Математика">Математика<br><br>
+        <input type="submit" value="Отправить">
+        <input type="reset" value="Очистить"><br><br>
+        <input type="button" value="Напечатать" onclick="info()">
+      </fieldset>
+    </form><br><br>
+
+    <div>
+    </div><br>
+
+    <form class="form2">
+
+    </form>
+    
+    <script type="text/javascript" src="js/main.js">
+
+    </script>
+  </body>
+</html>

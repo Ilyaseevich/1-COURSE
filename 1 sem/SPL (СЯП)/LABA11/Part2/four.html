@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LABA 9</title>
+    <link rel="stylesheet" href="css/four.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  </head>
+  <body>
+    <h3>Постройте график</h3>
+    <form action="index.html" method="post" name="graphics">
+      <input type="radio" name="choice" onclick="first()"><label>y = x²</label>
+      <input type="radio" name="choice" onclick="second()"><label>y = x³</label>
+      <input type="radio" name="choice" onclick="third()"><label>y = sin(x)</label>
+      <input type="radio" name="choice" onclick="four()"><label>y = cos(x)</label>
+        <select id="spis" onchange="changeColor()">
+          <option value="red">Красный</option>
+          <option value="blue">Синий</option>
+          <option value="green">Зелёный</option>
+          <option value="black">Чёрный</option>
+          <option value="purple">Фиолетовый</option>
+          <option disabled selected value="black">Выберете цвет графика</option>
+        </select><br><br>
+      <canvas id="canvas" width="540" height="540"></canvas><br>
+    </form>
+    <a href="five.html">Задание 6</a>
+    <script type="text/javascript" src="js/four.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+input{
+  transition: 0.5s;
+  text-align: center;
+  display: block;
+  width: 200px;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgb(65 132 144 /30%), 0 1px 3px rgb(0 0 0 / 88%);
+}
+
+input:hover{
+  transition: 0.5s;
+  background-color: #9e00ff;
+  color: #ffffff;
+  box-shadow: 0 4px 6px rgb(65 132 144 /60%), 0 1px 3px rgb(0 0 0 / 50%);
+}
+
+.input:hover{
+  background-color: #ff6700;
+}
+
+table{
+  border-collapse: collapse;
+  box-shadow: 0 4px 6px rgb(65 132 144 /30%), 0 1px 3px rgb(0 0 0 / 88%);
+}
+
+td {
+  border: 1px solid black;
+  width: 300px;
+  padding: 5px;
+}

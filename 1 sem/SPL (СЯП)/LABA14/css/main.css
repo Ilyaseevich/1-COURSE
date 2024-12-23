@@ -1,0 +1,9 @@
+button{
+    width: 16.27vw;
+    height: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+    font-weight: bold;
+}

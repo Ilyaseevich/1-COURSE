@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Task";
+  src: url(Exo2-Black.ttf) format(truetype);
+}
+
+input {
+  transition: 0.5s;
+  font-family: Task;
+  font-size: 29px;
+  text-align: center;
+  width: 300px;
+  height: 100px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 6px rgb(65 132 144 /30%), 0 1px 3px rgb(0 0 0 / 88%);
+}
+input:hover{
+  transition: 0.5s;
+  background: green;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgb(65 132 144 /80%), 0 1px 3px rgb(0 0 0 / 50%);
+}
+table{
+  border-collapse: collapse;
+  box-shadow: 0 4px 6px rgb(65 132 144 /30%), 0 1px 3px rgb(0 0 0 / 88%);
+}
+tr td, tr th{
+  transition: 0.5s;
+  border: 1px solid black;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+
+}
+
+tr td:hover, tr th:hover{
+  transition: 0.5s;
+  color: white;
+  background: black;
+}
