@@ -1,0 +1,29 @@
+﻿Сборка начата 08.10.2024 0:10:32.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\user\source\repos\LABA7\LABA7\LABA7.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+         Создание каталога "C:\Users\user\source\repos\LABA7\Release\".
+         Создание каталога "Release\LABA7.tlog\".
+       InitializeBuildStatus:
+         Создание "Release\LABA7.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Release\LABA7.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\Visual Studio\VC\Tools\MSVC\14.40.33807\bin\HostX86\x86\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Release\\" /Fd"Release\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt LABA7.cpp
+         LABA7.cpp
+       Link:
+         D:\Visual Studio\VC\Tools\MSVC\14.40.33807\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\source\repos\LABA7\Release\LABA7.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\source\repos\LABA7\Release\LABA7.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /LTCGOUT:"Release\LABA7.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\source\repos\LABA7\Release\LABA7.lib" /MACHINE:X86 /SAFESEH Release\LABA7.obj
+         Создание кода
+         Previous IPDB not found, fall back to full compilation.
+         All 4 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Создание кода завершено
+         LABA7.vcxproj -> C:\Users\user\source\repos\LABA7\Release\LABA7.exe
+       FinalizeBuildStatus:
+         Файл "Release\LABA7.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Release\LABA7.tlog\LABA7.lastbuildstate".
+     1>Сборка проекта "C:\Users\user\source\repos\LABA7\LABA7\LABA7.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.68

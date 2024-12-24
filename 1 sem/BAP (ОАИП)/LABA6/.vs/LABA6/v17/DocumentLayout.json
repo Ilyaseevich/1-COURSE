@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\LABA6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3D02A2C-2C74-4B94-8E35-AE08901D598A}|LABA6\\LABA6.vcxproj|C:\\Users\\user\\source\\repos\\LABA6\\LABA6\\LABA6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3D02A2C-2C74-4B94-8E35-AE08901D598A}|LABA6\\LABA6.vcxproj|solutionrelative:LABA6\\LABA6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LABA6.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\LABA6\\LABA6\\LABA6.cpp",
+              "RelativeDocumentMoniker": "LABA6\\LABA6.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\LABA6\\LABA6\\LABA6.cpp*",
+              "RelativeToolTip": "LABA6\\LABA6.cpp*",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-30T23:36:53.961Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

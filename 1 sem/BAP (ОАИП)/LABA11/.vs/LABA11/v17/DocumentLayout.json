@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project Visual Studio\\OAIP\\LABA11\\LABA11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDD12A19-C0FE-44CB-8501-1797826B4F30}|LABA11\\LABA11.vcxproj|D:\\Project Visual Studio\\OAIP\\LABA11\\LABA11\\LABA11\\LABA11.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FDD12A19-C0FE-44CB-8501-1797826B4F30}|LABA11\\LABA11.vcxproj|solutionrelative:LABA11\\LABA11.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 178,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LABA11.cpp",
+              "DocumentMoniker": "D:\\Project Visual Studio\\OAIP\\LABA11\\LABA11\\LABA11\\LABA11.cpp",
+              "RelativeDocumentMoniker": "LABA11\\LABA11.cpp",
+              "ToolTip": "D:\\Project Visual Studio\\OAIP\\LABA11\\LABA11\\LABA11\\LABA11.cpp",
+              "RelativeToolTip": "LABA11\\LABA11.cpp",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAAAFcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-31T01:10:03.946Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

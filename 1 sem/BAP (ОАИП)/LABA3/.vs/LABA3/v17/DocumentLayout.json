@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project Visual Studio\\OAIP\\LABA3\\LABA3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{753E6EA1-8EFE-43CA-8B1B-19E3493F3F0B}|LABA3\\LABA3.vcxproj|D:\\Project Visual Studio\\OAIP\\LABA3\\LABA3\\LABA3\\LABA3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{753E6EA1-8EFE-43CA-8B1B-19E3493F3F0B}|LABA3\\LABA3.vcxproj|solutionrelative:LABA3\\LABA3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LABA3.cpp",
+              "DocumentMoniker": "D:\\Project Visual Studio\\OAIP\\LABA3\\LABA3\\LABA3\\LABA3.cpp",
+              "RelativeDocumentMoniker": "LABA3\\LABA3.cpp",
+              "ToolTip": "D:\\Project Visual Studio\\OAIP\\LABA3\\LABA3\\LABA3\\LABA3.cpp",
+              "RelativeToolTip": "LABA3\\LABA3.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-12T12:29:27.466Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

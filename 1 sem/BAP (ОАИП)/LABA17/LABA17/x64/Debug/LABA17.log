@@ -1,0 +1,43 @@
+﻿Сборка начата 11.12.2024 1:03:12.
+Уровень детализации журнала: Normal.     1>Проект "D:\Project Visual Studio\LABA17\LABA17\LABA17\LABA17.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "x64\Debug\LABA17.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\LABA17.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\Visual Studio\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt LABA17.cpp
+         LABA17.cpp
+     1>D:\Project Visual Studio\LABA17\LABA17\LABA17\LABA17.cpp(93,1): warning C4172: возвращение адреса локальной или временной переменной : spread
+     1>D:\Project Visual Studio\LABA17\LABA17\LABA17\LABA17.cpp(111,1): warning C4172: возвращение адреса локальной или временной переменной : index_columns
+     1>D:\Project Visual Studio\LABA17\LABA17\LABA17\LABA17.cpp(14,1): warning C4172: возвращение адреса локальной или временной переменной : k
+     1>D:\Project Visual Studio\LABA17\LABA17\LABA17\LABA17.cpp(43,1): warning C4172: возвращение адреса локальной или временной переменной : averange
+     1>D:\Project Visual Studio\LABA17\LABA17\LABA17\LABA17.cpp(74,1): warning C4172: возвращение адреса локальной или временной переменной : index_row
+     1>D:\Project Visual Studio\LABA17\LABA17\LABA17\LABA17.cpp(55,1): warning C4172: возвращение адреса локальной или временной переменной : b
+     1>D:\Project Visual Studio\LABA17\LABA17\LABA17\LABA17.cpp(119,1): warning C4172: возвращение адреса локальной или временной переменной : sum
+     1>D:\Project Visual Studio\LABA17\LABA17\LABA17\LABA17.cpp(137,1): warning C4172: возвращение адреса локальной или временной переменной : index_row
+       Link:
+         D:\Visual Studio\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Project Visual Studio\LABA17\LABA17\x64\Debug\LABA17.exe" /INCREMENTAL /ILK:"x64\Debug\LABA17.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Project Visual Studio\LABA17\LABA17\x64\Debug\LABA17.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Project Visual Studio\LABA17\LABA17\x64\Debug\LABA17.lib" /MACHINE:X64 x64\Debug\LABA17.obj
+         LABA17.vcxproj -> D:\Project Visual Studio\LABA17\LABA17\x64\Debug\LABA17.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\LABA17.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\LABA17.tlog\LABA17.lastbuildstate".
+     1>Сборка проекта "D:\Project Visual Studio\LABA17\LABA17\LABA17\LABA17.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Project Visual Studio\LABA17\LABA17\LABA17\LABA17.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Project Visual Studio\LABA17\LABA17\LABA17\LABA17.cpp(93,1): warning C4172: возвращение адреса локальной или временной переменной : spread
+         D:\Project Visual Studio\LABA17\LABA17\LABA17\LABA17.cpp(111,1): warning C4172: возвращение адреса локальной или временной переменной : index_columns
+         D:\Project Visual Studio\LABA17\LABA17\LABA17\LABA17.cpp(14,1): warning C4172: возвращение адреса локальной или временной переменной : k
+         D:\Project Visual Studio\LABA17\LABA17\LABA17\LABA17.cpp(43,1): warning C4172: возвращение адреса локальной или временной переменной : averange
+         D:\Project Visual Studio\LABA17\LABA17\LABA17\LABA17.cpp(74,1): warning C4172: возвращение адреса локальной или временной переменной : index_row
+         D:\Project Visual Studio\LABA17\LABA17\LABA17\LABA17.cpp(55,1): warning C4172: возвращение адреса локальной или временной переменной : b
+         D:\Project Visual Studio\LABA17\LABA17\LABA17\LABA17.cpp(119,1): warning C4172: возвращение адреса локальной или временной переменной : sum
+         D:\Project Visual Studio\LABA17\LABA17\LABA17\LABA17.cpp(137,1): warning C4172: возвращение адреса локальной или временной переменной : index_row
+
+    Предупреждений: 8
+    Ошибок: 0
+
+Прошло времени 00:00:00.98
