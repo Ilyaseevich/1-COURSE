@@ -1,0 +1,25 @@
+﻿Сборка начата 17.09.2024 18:01:36.
+Уровень детализации журнала: Normal.     1>Проект "D:\Project Visual Studio\LABA\LABA1\LABA1\LABA1.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "x64\Debug\LABA1.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\LABA1.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\Visual Studio\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt LABA1.cpp
+         LABA1.cpp
+     1>D:\Project Visual Studio\LABA\LABA1\LABA1\LABA1.cpp(6,27): error C2065: д: необъявленный идентификатор
+     1>D:\Project Visual Studio\LABA\LABA1\LABA1\LABA1.cpp(8,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "return"
+     1>Сборка проекта "D:\Project Visual Studio\LABA\LABA1\LABA1\LABA1.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\Project Visual Studio\LABA\LABA1\LABA1\LABA1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Project Visual Studio\LABA\LABA1\LABA1\LABA1.cpp(6,27): error C2065: д: необъявленный идентификатор
+         D:\Project Visual Studio\LABA\LABA1\LABA1\LABA1.cpp(8,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "return"
+
+    Предупреждений: 0
+    Ошибок: 2
+
+Прошло времени 00:00:01.05
