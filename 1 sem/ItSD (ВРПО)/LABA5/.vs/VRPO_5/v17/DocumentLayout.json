@@ -1,0 +1,65 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project Visual Studio\\VRPO_5\\VRPO_5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE08D99-13EB-4B5F-BD01-EE4FBF4C402C}|VRPO_5\\VRPO_5.vcxproj|D:\\Project Visual Studio\\VRPO_5\\VRPO_5\\VRPO_5\\VRPO_5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1CE08D99-13EB-4B5F-BD01-EE4FBF4C402C}|VRPO_5\\VRPO_5.vcxproj|solutionrelative:VRPO_5\\VRPO_5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CE08D99-13EB-4B5F-BD01-EE4FBF4C402C}|VRPO_5\\VRPO_5.vcxproj|D:\\Project Visual Studio\\VRPO_5\\VRPO_5\\VRPO_5\\get_sum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1CE08D99-13EB-4B5F-BD01-EE4FBF4C402C}|VRPO_5\\VRPO_5.vcxproj|solutionrelative:VRPO_5\\get_sum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 178,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 284,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "get_sum.cpp",
+              "DocumentMoniker": "D:\\Project Visual Studio\\VRPO_5\\VRPO_5\\VRPO_5\\get_sum.cpp",
+              "RelativeDocumentMoniker": "VRPO_5\\get_sum.cpp",
+              "ToolTip": "D:\\Project Visual Studio\\VRPO_5\\VRPO_5\\VRPO_5\\get_sum.cpp",
+              "RelativeToolTip": "VRPO_5\\get_sum.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-09T12:41:41.169Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VRPO_5.cpp",
+              "DocumentMoniker": "D:\\Project Visual Studio\\VRPO_5\\VRPO_5\\VRPO_5\\VRPO_5.cpp",
+              "RelativeDocumentMoniker": "VRPO_5\\VRPO_5.cpp",
+              "ToolTip": "D:\\Project Visual Studio\\VRPO_5\\VRPO_5\\VRPO_5\\VRPO_5.cpp",
+              "RelativeToolTip": "VRPO_5\\VRPO_5.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-09T12:35:18.325Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
